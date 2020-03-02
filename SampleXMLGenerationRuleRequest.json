@@ -1,0 +1,117 @@
+{
+  "__DecisionID__": "string",
+  "xMLForEMMELetterInput": {
+    "letter": {
+      "letterCode": "ME2995",
+      "letterLimit": "1 Per Member",
+      "messageDefinitionCode": "ME2295_OutofPocketLetter_100",
+      "recipient": "Member",
+      "claims": [
+        {
+          "claimHeader": {
+            "claimID": "820192950001111",
+            "claimReceiveDate": "2008-09-28T21:49:45.000-0400",
+            "claimSequence": "string",
+            "claimSrcCode": "string",
+            "claimStatus": "string",
+            "claimTotalChargeAmount": 1000,
+            "claimTotalDeniedAmount": 1000,
+            "claimTotalMbrRespAmount": 1000,
+            "claimTotalOOPLimitAmount": 1000,
+            "claimTotalPaidAmount": 1000,
+            "claimType": "string",
+            "clientId": "string",
+            "encounter": "string",
+            "eobSFlag": "string",
+            "groupClassID": "string",
+            "groupIssueState": "string",
+            "groupNumber": "string",
+            "ipaName": "string",
+            "lob": "string",
+            "memberGroupPlatform": "string",
+            "memberId": "string",
+            "memberRelationCd": "string",
+            "memberState": "string",
+            "patient": {
+              "patientDateOfBirth": "2014-09-18T19:18:33.000-0400",
+              "patientFirstName": "string",
+              "patientFullName": "string",
+              "patientLastName": "string",
+              "patientMiddleName": "string",
+              "patientNameSuffix": "string"
+            },
+            "payee": "string",
+            "pendedDays": 3,
+            "planTypeCode": "string",
+            "providerId": "string",
+            "renderingProviderFullName": "string",
+            "serviceFromDate": "2006-08-19T13:27:14.000-0400",
+            "serviceThruDate": "2009-05-16T08:42:28.000-0400"
+          },
+          "claimLines": [
+            {
+              "allowedExCode": "string",
+              "claimLineStatus": "string",
+              "deniedAmount": 1000,
+              "denyExCode": "string",
+              "denyExCodeDesc": "string",
+              "lineNumber": 3,
+              "memberResponsibilityAmnt": 1000,
+              "paidAmnt": 1000,
+              "pendExCode": "string",
+              "procedureCode": "string",
+              "procedureCodeDesc": "string",
+              "provParNPar": "string",
+              "revenueCode": "string",
+              "revenueCodeDesc": "string",
+              "serviceFromDate": "2003-08-08T20:18:37.000-0400",
+              "serviceThruDate": "2012-09-13T09:00:34.000-0400",
+              "totalChargeAmnt": 1000
+            }
+          ]
+        }
+      ]
+    },
+    "letterRequestDate": "2009-10-14T03:16:36.000-0400",
+    "member": {
+      "memberAddressLine1": "string",
+      "memberAddressLine2": "string",
+      "memberAddressLine3": "string",
+      "memberCity": "string",
+      "memberDateOfBirth": "2010-03-18T12:05:32.000-0400",
+      "memberFirstName": "string",
+      "memberFullName": "string",
+      "memberGroupNumber": "string",
+      "memberLanguageIndicator": "string",
+      "memberLastName": "string",
+      "memberCardId": "string",
+      "memberDependentCode": "string",
+      "memberMiddleName": "string",
+      "memberState": "string",
+      "memberZip": "string",
+      "memberZip4": "string"
+    },
+    "provider": {
+      "providerAddressLine1": "string",
+      "providerAddressLine2": "string",
+      "providerAddressLine3": "string",
+      "providerCity": "string",
+      "providerFirstName": "string",
+      "providerFullName": "string",
+      "providerLanguageIndicator": "string",
+      "providerLastName": "string",
+      "providerMiddleName": "string",
+      "providerOrganizationName": "string",
+      "providerId": "string",
+      "providerIdType": "string",
+      "providerState": "string",
+      "providerZip": "string",
+      "providerZip4": "string"
+    },
+    "subscriber": {
+      "subscriberFirstName": "string",
+      "subscriberLastName": "string",
+      "subscriberMiddleName": "string"
+    }
+  }
+}

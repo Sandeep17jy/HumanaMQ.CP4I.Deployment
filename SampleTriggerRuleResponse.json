@@ -1,0 +1,149 @@
+{
+  "__DecisionID__": "c428fcf6-4a82-42c5-9950-925e11758edf0",
+  "LetterTriggerOutput": {
+    "listOfLetters": [
+      {
+        "letterCode": "MD0247",
+        "letterLimit": "1 PER MBR & PROV",
+        "messageDefinitionCode": "MD0247_ElderCare_NoticeofActionLtr",
+        "recipient": "MEMBER",
+        "claims": [
+          {
+            "claimHeader": {
+              "claimID": "820192950001234",
+              "claimReceiveDate": "2008-09-29T01:49:45.000+0000",
+              "claimSequence": "0",
+              "claimSrcCode": "OD",
+              "claimStatus": "DENIED",
+              "claimTotalChargeAmount": 1000,
+              "claimTotalDeniedAmount": 1000,
+              "claimTotalMbrRespAmount": 1000,
+              "claimTotalOOPLimitAmount": 1000,
+              "claimTotalPaidAmount": 1000,
+              "claimType": "OP",
+              "clientId": "C100123",
+              "encounter": "T",
+              "eobSFlag": "string",
+              "groupClassID": "T086445",
+              "groupIssueState": "PR",
+              "groupNumber": "X8535",
+              "ipaName": "string",
+              "lob": "44",
+              "memberGroupPlatform": "LG",
+              "memberId": "1005407813",
+              "memberRelationCd": "00",
+              "memberState": "AR",
+              "patient": {
+                "patientDateOfBirth": "2014-09-18T23:18:33.000+0000",
+                "patientFirstName": "Danish",
+                "patientFullName": "Danish Orooj",
+                "patientLastName": "Orooj",
+                "patientMiddleName": "string",
+                "patientNameSuffix": "string"
+              },
+              "payee": "string",
+              "pendedDays": 46,
+              "planTypeCode": "AECFL",
+              "providerId": "621824637MD",
+              "renderingProviderFullName": "REGENCY HOSPICE OF NORTHWEST F",
+              "serviceFromDate": "2006-08-19T17:27:14.000+0000",
+              "serviceThruDate": "2009-05-16T12:42:28.000+0000"
+            },
+            "claimLines": [
+              {
+                "allowedExCode": "0",
+                "claimLineStatus": "DENY",
+                "deniedAmount": 1000,
+                "denyExCode": "43L",
+                "denyExCodeDesc": "THIS AMOUNT REPRESENTS THE PATIENT'S REMAINING RESPONSIBILITY FOR THE MONTH. THE MEMBER IS RESPONSIBLE FOR PAYMENT OF THE REMAINING RESPONSIBILITY.",
+                "lineNumber": 1,
+                "memberResponsibilityAmnt": 0,
+                "paidAmnt": 1000,
+                "pendExCode": "018",
+                "procedureCode": "658",
+                "procedureCodeDesc": "HOSPICE ROOM & BOARD",
+                "provParNPar": "string",
+                "revenueCode": "RC1",
+                "revenueCodeDesc": "RC1D",
+                "serviceFromDate": "2003-08-09T00:18:37.000+0000",
+                "serviceThruDate": "2012-09-13T13:00:34.000+0000",
+                "totalChargeAmnt": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "letterCode": "ME3302",
+        "letterLimit": "1 PER MBR & PROV",
+        "messageDefinitionCode": "MD3302_MEDKIDS",
+        "recipient": "MEMBER",
+        "claims": [
+          {
+            "claimHeader": {
+              "claimID": "820192950001234",
+              "claimReceiveDate": "2008-09-29T01:49:45.000+0000",
+              "claimSequence": "0",
+              "claimSrcCode": "OD",
+              "claimStatus": "DENIED",
+              "claimTotalChargeAmount": 1000,
+              "claimTotalDeniedAmount": 1000,
+              "claimTotalMbrRespAmount": 1000,
+              "claimTotalOOPLimitAmount": 1000,
+              "claimTotalPaidAmount": 1000,
+              "claimType": "OP",
+              "clientId": "C100123",
+              "encounter": "T",
+              "eobSFlag": "string",
+              "groupClassID": "T086445",
+              "groupIssueState": "PR",
+              "groupNumber": "X8535",
+              "ipaName": "string",
+              "lob": "44",
+              "memberGroupPlatform": "LG",
+              "memberId": "1005407813",
+              "memberRelationCd": "00",
+              "memberState": "AR",
+              "patient": {
+                "patientDateOfBirth": "2014-09-18T23:18:33.000+0000",
+                "patientFirstName": "Danish",
+                "patientFullName": "Danish Orooj",
+                "patientLastName": "Orooj",
+                "patientMiddleName": "string",
+                "patientNameSuffix": "string"
+              },
+              "payee": "string",
+              "pendedDays": 46,
+              "planTypeCode": "AECFL",
+              "providerId": "621824637MD",
+              "renderingProviderFullName": "REGENCY HOSPICE OF NORTHWEST F",
+              "serviceFromDate": "2006-08-19T17:27:14.000+0000",
+              "serviceThruDate": "2009-05-16T12:42:28.000+0000"
+            },
+            "claimLines": [
+              {
+                "allowedExCode": "0",
+                "claimLineStatus": "DENY",
+                "deniedAmount": 1000,
+                "denyExCode": "43L",
+                "denyExCodeDesc": "THIS AMOUNT REPRESENTS THE PATIENT'S REMAINING RESPONSIBILITY FOR THE MONTH. THE MEMBER IS RESPONSIBLE FOR PAYMENT OF THE REMAINING RESPONSIBILITY.",
+                "lineNumber": 1,
+                "memberResponsibilityAmnt": 0,
+                "paidAmnt": 1000,
+                "pendExCode": "018",
+                "procedureCode": "658",
+                "procedureCodeDesc": "HOSPICE ROOM & BOARD",
+                "provParNPar": "string",
+                "revenueCode": "RC1",
+                "revenueCodeDesc": "RC1D",
+                "serviceFromDate": "2003-08-09T00:18:37.000+0000",
+                "serviceThruDate": "2012-09-13T13:00:34.000+0000",
+                "totalChargeAmnt": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
