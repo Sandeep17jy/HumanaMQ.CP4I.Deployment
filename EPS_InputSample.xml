@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="EnterpriseProviderSearchService/v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:RetrieveProviderRequest>
+         <v2:RetrieveRequest>
+            <v2:ApplicationKey>4352B4C3-A063-42FE-844F-27CCCD12EFED</v2:ApplicationKey>
+            <v2:RetrieveCriteria>
+               <v2:Provider>
+                  <v2:Source>CAS</v2:Source>
+                  <!--Optional:-->
+                  <v2:ProviderID>621824637MD</v2:ProviderID>
+               </v2:Provider>
+               <v2:IsSourceView>false</v2:IsSourceView>
+            </v2:RetrieveCriteria>
+         </v2:RetrieveRequest>
+      </v2:RetrieveProviderRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

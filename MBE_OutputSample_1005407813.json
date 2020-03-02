@@ -1,0 +1,800 @@
+{
+   "ResponseHeader":    {
+      "Environment": "Int",
+      "Version": "2.0",
+      "Server": {"Name": "simigwii06s02"},
+      "Metrics":       {
+         "Duration": 7801,
+         "RequestTimeStamp": "2019-01-29T09:02:09.392Z",
+         "ResponseTimeStamp": "2019-01-29T09:02:17.194Z"
+      },
+      "ResponseMetaData":       {
+         "Status": "Warning",
+         "ClientSessionID": "SMSUtility0123456",
+         "SessionID": "e391e90f-75b8-4aee-8669-1b06f4d6b21a",
+         "DataAuthorizationConstraintList":          [
+                        {
+               "ConstraintType": "Include",
+               "Tenant": "HUM",
+               "Source": "",
+               "Group": ""
+            },
+                        {
+               "ConstraintType": "Exclude",
+               "Tenant": "HUM",
+               "Source": "CP",
+               "Group": ""
+            },
+                        {
+               "ConstraintType": "Include",
+               "Tenant": "HUM",
+               "Source": "ODS",
+               "Group": "588555"
+            }
+         ]
+      }
+   },
+   "GetMember":    {
+      "Member":       {
+         "DateOfBirth": "1954-01-24",
+         "FirstName": "LUZETTER",
+         "Gender": "F",
+         "LastName": "CHEESEMAN",
+         "MiddleInitial": "L",
+         "Suffix": "Jr.",
+         "Ssn": "344837976",
+         "MasterId": "1005407813",
+         "Contact": {"ContactProfile":          {
+            "PhoneList":             [
+                              {
+                  "Type": "Home",
+                  "Number": "4074834540"
+               },
+                              {
+                  "Type": "Work",
+                  "Number": "7274243609"
+               }
+            ],
+            "EmailList": [            {
+               "Type": "Primary",
+               "Address": "T0140004650122@HUMANATEST.COM"
+            }],
+            "AddressList": [            {
+               "AddressLine1": "2873 VINEYARD DRIVE",
+               "City": "KISSIMMEE",
+               "County": "OSCEOLA",
+               "CountyCode": "12097",
+               "ZipCode": "34746",
+               "ZipPlus": "3522",
+               "StateCode": "FL",
+               "Type": "Home"
+            }]
+         }},
+         "MedicareIdentifierList": [{"MedicareId": "344465697A"}],
+         "PlatformPointerList":          [
+                        {
+               "Application": "CI",
+               "KeyType": "PERSONID",
+               "KeyValue": "089562263",
+               "Source": "LV"
+            },
+                        {
+               "Application": "SL",
+               "KeyType": "AKANAME",
+               "KeyValue": "Aka15213281880",
+               "Source": "WPP"
+            },
+                        {
+               "Application": "EE",
+               "KeyType": "PERSONID",
+               "KeyValue": "0191511923030585",
+               "Source": "EM"
+            },
+                        {
+               "KeyType": "ODS_GENKEY",
+               "KeyValue": "140004650122",
+               "Source": "ODS"
+            },
+                        {
+               "KeyType": "NIEXTERNALSYSTEMENTITYID",
+               "KeyValue": "2553425105",
+               "Source": "HV"
+            }
+         ],
+         "SoldProductList":          [
+                        {
+               "ProductId": "166",
+               "OfferId": "1264",
+               "ProductStartDate": "2013-09-18",
+               "ProductOptionKey": "Vitality##5",
+               "Description": "Medicare Vitality HealthyFoods",
+               "ProductEndDate": "10002-03-20",
+               "ProductLineCode": "VIT",
+               "Source": "LV",
+               "SoldProductDetailList":                [
+                                    {
+                     "EndDate": "2020-03-20",
+                     "StartDate": "2019-08-20",
+                     "OptOut": "2",
+                     "VitalityContractId": "121088621",
+                     "CoveredRoleList": [                     {
+                        "StartDate": "2019-08-20",
+                        "EndDate": "2020-03-20",
+                        "MemberMasterId": "1005407813",
+                        "RelationshipToSubscriber": "EmployeeSelf",
+                        "ProductRoleType": "Insured",
+                        "CoveredRolePlatformPointerList":                         [
+                                                      {
+                              "Application": "CI",
+                              "KeyType": "MemberIDDependentCode",
+                              "KeyValue": "00",
+                              "Source": "LV"
+                           },
+                                                      {
+                              "Application": "CI",
+                              "KeyType": "MemberIdBase",
+                              "KeyValue": "H43991461",
+                              "Source": "LV"
+                           },
+                                                      {
+                              "Application": "",
+                              "KeyType": "PersonId",
+                              "KeyValue": "089562263",
+                              "Source": "LV"
+                           }
+                        ],
+                        "Hipaa": {"CoverageType": "FAM"},
+                        "CoverageKey": "26222|52792|02314|0049527926642|0049251715434370|LV|244912|2017-03-21|LV|2018-03-21|N|||"
+                     }],
+                     "GroupPlatformPointerList":                      [
+                                                {
+                           "Application": "CI",
+                           "KeyType": "GroupId",
+                           "KeyValue": "297129",
+                           "Source": "LV"
+                        },
+                                                {
+                           "Application": "CI",
+                           "KeyType": "DivisionId",
+                           "KeyValue": "297129001000",
+                           "Source": "LV"
+                        }
+                     ],
+                     "XReferenceList": [                     {
+                        "KeyType": "ExternalCoverage",
+                        "Name": "ExternalCoverage",
+                        "NameValueList": [                        {
+                           "Name": "AcknowledgementDate",
+                           "Value": "2020-06-06"
+                        }]
+                     }],
+                     "ParentProductInfo":                      {
+                        "ProductId": "1863310101",
+                        "ProductStartDate": "2019-03-22",
+                        "PlatformCode": "LV",
+                        "IsNonInsurance": false,
+                        "CoverageId": "297129001000"
+                     }
+                  },
+                                    {
+                     "EndDate": "2021-03-20",
+                     "StartDate": "2020-03-21",
+                     "OptOut": "2",
+                     "VitalityContractId": "121088621",
+                     "CoveredRoleList": [                     {
+                        "StartDate": "2020-03-21",
+                        "EndDate": "2021-03-20",
+                        "MemberMasterId": "1005407813",
+                        "RelationshipToSubscriber": "EmployeeSelf",
+                        "ProductRoleType": "Insured",
+                        "CoveredRolePlatformPointerList":                         [
+                                                      {
+                              "Application": "CI",
+                              "KeyType": "MemberIDDependentCode",
+                              "KeyValue": "00",
+                              "Source": "LV"
+                           },
+                                                      {
+                              "Application": "CI",
+                              "KeyType": "MemberIdBase",
+                              "KeyValue": "H43991461",
+                              "Source": "LV"
+                           },
+                                                      {
+                              "Application": "",
+                              "KeyType": "PersonId",
+                              "KeyValue": "089562263",
+                              "Source": "LV"
+                           }
+                        ],
+                        "Hipaa": {"CoverageType": "FAM"},
+                        "CoverageKey": "26222|52792|02314|0049527926642|0049251715434370|LV|244912|2017-03-21|LV|2018-03-21|N|||"
+                     }],
+                     "GroupPlatformPointerList":                      [
+                                                {
+                           "Application": "CI",
+                           "KeyType": "GroupId",
+                           "KeyValue": "301467",
+                           "Source": "LV"
+                        },
+                                                {
+                           "Application": "CI",
+                           "KeyType": "DivisionId",
+                           "KeyValue": "301467001000",
+                           "Source": "LV"
+                        }
+                     ],
+                     "XReferenceList": [                     {
+                        "KeyType": "ExternalCoverage",
+                        "Name": "ExternalCoverage",
+                        "NameValueList": [                        {
+                           "Name": "AcknowledgementDate",
+                           "Value": "2020-06-06"
+                        }]
+                     }],
+                     "ParentProductInfo":                      {
+                        "ProductId": "3445410101",
+                        "ProductStartDate": "2020-03-21",
+                        "PlatformCode": "LV",
+                        "IsNonInsurance": false,
+                        "CoverageId": "301467001000"
+                     }
+                  }
+               ]
+            },
+                        {
+               "ProductId": "1863310101",
+               "ProductStartDate": "2019-03-22",
+               "AlternateDescription": "HMP RISK GATE CAP EXC",
+               "Description": "076 019",
+               "MajorLineOfBusinessCode": "MER",
+               "MajorLineOfBusinessDescription": "MEDICARE HMO",
+               "ProductEndDate": "2020-03-20",
+               "ProductLineCode": "MED",
+               "ProductLineDescription": "MEDICAL PRODUCTS",
+               "ProductTypeCode": "MAPD",
+               "SegmentType": "MCR",
+               "IsCarryOverCredit": false,
+               "IsCustomerCarveOut": false,
+               "IsCustomPlan": false,
+               "IsFedQualified": false,
+               "IsHdhp": false,
+               "IsPca": false,
+               "IsPcpRequired": true,
+               "IsRxMedicalIntegratedDeductible": false,
+               "IsRxSpeciality": false,
+               "Source": "LV",
+               "SoldProductDetailList": [               {
+                  "EndDate": "2020-03-20",
+                  "StartDate": "2019-08-20",
+                  "PolicyType": "Individual",
+                  "CoverageType": "Single",
+                  "ContractId": "185989263",
+                  "OperationalMajorLineOfBusiness": "MER",
+                  "PolicySequenceNumber": "0",
+                  "HcfaEnrollmentSourceCode": "P",
+                  "CoveredRoleList": [                  {
+                     "StartDate": "2019-08-20",
+                     "EndDate": "2020-03-20",
+                     "MemberMasterId": "1005407813",
+                     "RelationshipToSubscriber": "EmployeeSelf",
+                     "CoveredRolePlatformPointerList":                      [
+                                                {
+                           "Application": "CI",
+                           "KeyType": "MemberIDDependentCode",
+                           "KeyValue": "00",
+                           "Source": "LV"
+                        },
+                                                {
+                           "Application": "CI",
+                           "KeyType": "MemberIdBase",
+                           "KeyValue": "H43991461",
+                           "Source": "LV"
+                        },
+                                                {
+                           "Application": "",
+                           "KeyType": "PersonId",
+                           "KeyValue": "089562263",
+                           "Source": "LV"
+                        }
+                     ],
+                     "Hipaa": {"CoverageType": "FAM"},
+                     "CoverageKey": "26222|52792|02314|0049527926642|0049251715434370|LV|244912|2017-03-21|LV|2018-03-21|N|||"
+                  }],
+                  "ReasonList": [                  {
+                     "Code": "CB",
+                     "Description": "CHANGING BENEFITS",
+                     "Type": ""
+                  }],
+                  "GroupPlatformPointerList":                   [
+                                          {
+                        "Application": "CI",
+                        "KeyType": "GroupId",
+                        "KeyValue": "297129",
+                        "Source": "LV"
+                     },
+                                          {
+                        "Application": "CI",
+                        "KeyType": "DivisionId",
+                        "KeyValue": "297129001000",
+                        "Source": "LV"
+                     }
+                  ],
+                  "IndicatorList": [                  {
+                     "Name": "HCFAStatCd",
+                     "Value": "08"
+                  }],
+                  "Network":                   {
+                     "NetworkId": "628647264786472647",
+                     "NetworkDirectoryList": [{"Primary": false}]
+                  },
+                  "PrimaryCarePhysician":                   {
+                     "EffectiveDate": "2019-08-20",
+                     "EndDate": "2020-03-20",
+                     "Name": "MEDICAL CLINIC OF OSCEOLA",
+                     "SourceProviderKey": "000133863",
+                     "SourceGrouperNumber": "80958430",
+                     "GrouperName": "TRANSCEND LLC"
+                  },
+                  "PrimaryCarePhysicianList": [                  {
+                     "EffectiveDate": "2019-08-20",
+                     "EndDate": "2020-03-20",
+                     "Name": "MEDICAL CLINIC OF OSCEOLA",
+                     "SourceProviderKey": "000133863",
+                     "SourceGrouperNumber": "80958430",
+                     "GrouperName": "TRANSCEND LLC"
+                  }]
+               }]
+            },
+                        {
+               "ProductId": "FEHBNP28",
+               "ProductStartDate": "2019-03-22",
+               "AlternateDescription": "FEHBP NPOS COVERAGE FIRST 1",
+               "Description": "FEHBP FL NPOS 90/60,D $1,000,O",
+               "MajorLineOfBusinessCode": "NPOS",
+               "MajorLineOfBusinessDescription": "POINT OF SERVICE(POS)",
+               "ProductEndDate": "2020-03-20",
+               "ProductLineCode": "MED",
+               "ProductLineDescription": "MEDICAL PRODUCTS",
+               "ProductTypeCode": "NFEDCF",
+               "DeductibleTypeCode": "E",
+               "IsCarryOverCredit": false,
+               "IsCustomerCarveOut": false,
+               "IsCustomPlan": false,
+               "IsFedQualified": false,
+               "IsHdhp": false,
+               "IsPca": false,
+               "IsPcpRequired": false,
+               "IsRxMedicalIntegratedDeductible": false,
+               "IsRxSpeciality": false,
+               "Source": "EM",
+               "SoldProductDetailList": [               {
+                  "EndDate": "2019-10-19",
+                  "StartDate": "2019-01-14",
+                  "CoverageType": "Single",
+                  "ContractId": "975602491",
+                  "OriginalEffectiveDate": "10002-03-20",
+                  "OperationalMajorLineOfBusiness": "POS",
+                  "PolicySequenceNumber": "0",
+                  "CoveredRoleList": [                  {
+                     "StartDate": "2019-01-14",
+                     "EndDate": "2019-10-19",
+                     "MemberMasterId": "1005407813",
+                     "RelationshipToSubscriber": "EmployeeSelf",
+                     "CoveredRolePlatformPointerList":                      [
+                                                {
+                           "Application": "EE",
+                           "KeyType": "MemberIDDependentCode",
+                           "KeyValue": "01",
+                           "Source": "EM"
+                        },
+                                                {
+                           "Application": "EE",
+                           "KeyType": "MemberIdBase",
+                           "KeyValue": "975602491",
+                           "Source": "EM"
+                        },
+                                                {
+                           "Application": "",
+                           "KeyType": "PersonId",
+                           "KeyValue": "0191511923030585",
+                           "Source": "EM"
+                        }
+                     ],
+                     "Hipaa": {"CoverageType": "FAM"},
+                     "CoverageKey": "26222|52792|02314|0049527926642|0049251715434370|LV|244912|2017-03-21|LV|2018-03-21|N|||"
+                  }],
+                  "ReasonList": [                  {
+                     "Code": "TE",
+                     "Description": "Termination of employment - voluntary",
+                     "Type": ""
+                  }],
+                  "GroupPlatformPointerList":                   [
+                                          {
+                        "Application": "EE",
+                        "KeyType": "GroupId",
+                        "KeyValue": "706194",
+                        "Source": "EM"
+                     },
+                                          {
+                        "Application": "EE",
+                        "KeyType": "DivisionId",
+                        "KeyValue": "70619401",
+                        "Source": "EM"
+                     }
+                  ],
+                  "Network":                   {
+                     "NetworkId": "NATPOSCHCCOR",
+                     "NetworkDirectoryList": [                     {
+                        "DirectoryId": "319",
+                        "DisplayName": "National POS - OpenAccess",
+                        "FormNumber": "NA-27186-CH",
+                        "Primary": true
+                     }]
+                  },
+                  "CoordinationOfBenefitList": [                  {
+                     "CarrierName": "MEDICARE PART A & B",
+                     "EffectiveDate": "2019-01-20",
+                     "EndDate": "10002-03-20",
+                     "Primary": "1"
+                  }],
+                  "EnrollmentInfo":                   {
+                     "DateofHire": "2019-01-14",
+                     "PriorCarrier": {"IndicatorList": [                     {
+                        "Value": "False",
+                        "Name": "PriorCoverageIndicator"
+                     }]}
+                  }
+               }]
+            },
+                        {
+               "ProductId": "FEHBNP28",
+               "ProductStartDate": "2018-03-21",
+               "AlternateDescription": "FEHBP NPOS COVERAGE FIRST 1",
+               "Description": "FEHBP FL NPOS 90/60,D $1,000,O",
+               "MajorLineOfBusinessCode": "NPOS",
+               "MajorLineOfBusinessDescription": "POINT OF SERVICE(POS)",
+               "ProductEndDate": "2019-03-21",
+               "ProductLineCode": "MED",
+               "ProductLineDescription": "MEDICAL PRODUCTS",
+               "ProductTypeCode": "NFEDCF",
+               "DeductibleTypeCode": "E",
+               "IsCarryOverCredit": false,
+               "IsCustomerCarveOut": false,
+               "IsCustomPlan": false,
+               "IsFedQualified": false,
+               "IsHdhp": false,
+               "IsPca": false,
+               "IsPcpRequired": false,
+               "IsRxMedicalIntegratedDeductible": false,
+               "IsRxSpeciality": false,
+               "Source": "EM",
+               "SoldProductDetailList": [               {
+                  "EndDate": "2019-10-19",
+                  "StartDate": "2019-01-14",
+                  "CoverageType": "Single",
+                  "ContractId": "975602491",
+                  "OriginalEffectiveDate": "10002-03-20",
+                  "OperationalMajorLineOfBusiness": "POS",
+                  "PolicySequenceNumber": "0",
+                  "CoveredRoleList": [                  {
+                     "StartDate": "2019-01-14",
+                     "EndDate": "2019-10-19",
+                     "MemberMasterId": "1005407813",
+                     "RelationshipToSubscriber": "EmployeeSelf",
+                     "CoveredRolePlatformPointerList":                      [
+                                                {
+                           "Application": "EE",
+                           "KeyType": "MemberIDDependentCode",
+                           "KeyValue": "01",
+                           "Source": "EM"
+                        },
+                                                {
+                           "Application": "EE",
+                           "KeyType": "MemberIdBase",
+                           "KeyValue": "975602491",
+                           "Source": "EM"
+                        },
+                                                {
+                           "Application": "",
+                           "KeyType": "PersonId",
+                           "KeyValue": "0191511923030585",
+                           "Source": "EM"
+                        }
+                     ],
+                     "Hipaa": {"CoverageType": "FAM"},
+                     "CoverageKey": "26222|52792|02314|0049527926642|0049251715434370|LV|244912|2017-03-21|LV|2018-03-21|N|||"
+                  }],
+                  "ReasonList": [                  {
+                     "Code": "TE",
+                     "Description": "Termination of employment - voluntary",
+                     "Type": ""
+                  }],
+                  "GroupPlatformPointerList":                   [
+                                          {
+                        "Application": "EE",
+                        "KeyType": "GroupId",
+                        "KeyValue": "706194",
+                        "Source": "EM"
+                     },
+                                          {
+                        "Application": "EE",
+                        "KeyType": "DivisionId",
+                        "KeyValue": "70619401",
+                        "Source": "EM"
+                     }
+                  ],
+                  "Network":                   {
+                     "NetworkId": "NATPOSCHCCOR",
+                     "NetworkDirectoryList": [                     {
+                        "DirectoryId": "319",
+                        "DisplayName": "National POS - OpenAccess",
+                        "FormNumber": "NA-27186-CH",
+                        "Primary": true
+                     }]
+                  },
+                  "CoordinationOfBenefitList": [                  {
+                     "CarrierName": "MEDICARE PART A & B",
+                     "EffectiveDate": "2019-01-20",
+                     "EndDate": "10002-03-20",
+                     "Primary": "1"
+                  }],
+                  "EnrollmentInfo":                   {
+                     "DateofHire": "2019-01-14",
+                     "PriorCarrier": {"IndicatorList": [                     {
+                        "Value": "False",
+                        "Name": "PriorCoverageIndicator"
+                     }]}
+                  }
+               }]
+            },
+                        {
+               "ProductId": "3445410101",
+               "ProductStartDate": "2020-03-21",
+               "AlternateDescription": "HMP RISK GATE CAP EXC",
+               "Description": "076 019",
+               "MajorLineOfBusinessCode": "MER",
+               "MajorLineOfBusinessDescription": "MEDICARE HMO",
+               "ProductEndDate": "2023-03-21",
+               "ProductLineCode": "MED",
+               "ProductLineDescription": "MEDICAL PRODUCTS",
+               "ProductTypeCode": "MAPD",
+               "SegmentType": "MCR",
+               "IsCarryOverCredit": false,
+               "IsCustomerCarveOut": false,
+               "IsCustomPlan": false,
+               "IsFedQualified": false,
+               "IsHdhp": false,
+               "IsPca": false,
+               "IsPcpRequired": true,
+               "IsRxMedicalIntegratedDeductible": false,
+               "IsRxSpeciality": false,
+               "Source": "LV",
+               "SoldProductDetailList": [               {
+                  "EndDate": "10002-03-20",
+                  "StartDate": "2020-03-21",
+                  "PolicyType": "Individual",
+                  "CoverageType": "Single",
+                  "ContractId": "154041241",
+                  "OperationalMajorLineOfBusiness": "MER",
+                  "PolicySequenceNumber": "0",
+                  "HcfaEnrollmentSourceCode": "P",
+                  "CoveredRoleList": [                  {
+                     "StartDate": "2020-03-21",
+                     "EndDate": "10002-03-20",
+                     "MemberMasterId": "1005407813",
+                     "RelationshipToSubscriber": "EmployeeSelf",
+                     "CoveredRolePlatformPointerList":                      [
+                                                {
+                           "Application": "CI",
+                           "KeyType": "MemberIDDependentCode",
+                           "KeyValue": "00",
+                           "Source": "LV"
+                        },
+                                                {
+                           "Application": "CI",
+                           "KeyType": "MemberIdBase",
+                           "KeyValue": "H43991461",
+                           "Source": "LV"
+                        },
+                                                {
+                           "Application": "",
+                           "KeyType": "PersonId",
+                           "KeyValue": "089562263",
+                           "Source": "LV"
+                        }
+                     ],
+                     "Hipaa": {"CoverageType": "FAM"},
+                     "CoverageKey": "26222|52792|02314|0049527926642|0049251715434370|LV|244912|2017-03-21|LV|2018-03-21|N|||"
+                  }],
+                  "GroupPlatformPointerList":                   [
+                                          {
+                        "Application": "CI",
+                        "KeyType": "GroupId",
+                        "KeyValue": "301467",
+                        "Source": "LV"
+                     },
+                                          {
+                        "Application": "CI",
+                        "KeyType": "DivisionId",
+                        "KeyValue": "301467001000",
+                        "Source": "LV"
+                     }
+                  ],
+                  "IndicatorList": [                  {
+                     "Name": "HCFAStatCd",
+                     "Value": "02"
+                  }],
+                  "Network":                   {
+                     "NetworkId": "628642264286422642",
+                     "NetworkDirectoryList": [                     {
+                        "DirectoryId": "1788",
+                        "DisplayName": "Medicare PPO",
+                        "FormNumber": "NA-86011",
+                        "Primary": true
+                     }]
+                  },
+                  "LongTermCare": {"ProdPlanId": "N/A"},
+                  "PrimaryCarePhysician":                   {
+                     "EffectiveDate": "2020-11-19",
+                     "EndDate": "10002-03-20",
+                     "Name": "FLORIDA MEDICAL ASSOCIATES, LLC",
+                     "SourceProviderKey": "000134348",
+                     "SourceGrouperNumber": "80958441",
+                     "GrouperName": "PHYSICIAN PARTNERS LLC"
+                  },
+                  "PrimaryCarePhysicianList":                   [
+                                          {
+                        "EffectiveDate": "2020-03-21",
+                        "EndDate": "2020-11-18",
+                        "Name": "MEDICAL CLINIC OF OSCEOLA",
+                        "SourceProviderKey": "000133863",
+                        "SourceGrouperNumber": "80958450",
+                        "GrouperName": "PHYSICIAN PARTNERS - ORL AFL"
+                     },
+                                          {
+                        "EffectiveDate": "2020-11-19",
+                        "EndDate": "10002-03-20",
+                        "Name": "FLORIDA MEDICAL ASSOCIATES, LLC",
+                        "SourceProviderKey": "000134348",
+                        "SourceGrouperNumber": "80958441",
+                        "GrouperName": "PHYSICIAN PARTNERS LLC"
+                     }
+                  ]
+               }]
+            },
+                        {
+               "ProductId": "MC3FL007",
+               "ProductStartDate": "2016-03-21",
+               "AlternateDescription": "MDCR 2014 CARENGTN DEN 007 HMO",
+               "Description": "DENTAL",
+               "MajorLineOfBusinessCode": "DHMO",
+               "ProductEndDate": "10002-03-20",
+               "ProductLineCode": "DEN",
+               "ProductLineDescription": "DENTAL",
+               "ProductTypeCode": "MDCHMO",
+               "DeductibleTypeCode": "N",
+               "IsCarryOverCredit": false,
+               "IsCustomerCarveOut": false,
+               "IsCustomPlan": false,
+               "IsFedQualified": false,
+               "IsHdhp": false,
+               "IsPca": false,
+               "IsPcpRequired": true,
+               "IsRxMedicalIntegratedDeductible": false,
+               "IsRxSpeciality": false,
+               "Source": "EM",
+               "SoldProductDetailList": [               {
+                  "EndDate": "10002-03-20",
+                  "StartDate": "2019-08-20",
+                  "CoverageType": "Single",
+                  "ContractId": "109074111",
+                  "OriginalEffectiveDate": "2019-08-20",
+                  "OperationalMajorLineOfBusiness": "POSD",
+                  "PolicySequenceNumber": "0",
+                  "CoveredRoleList": [                  {
+                     "StartDate": "2019-08-20",
+                     "EndDate": "10002-03-20",
+                     "MemberMasterId": "1005407813",
+                     "RelationshipToSubscriber": "EmployeeSelf",
+                     "CoveredRolePlatformPointerList":                      [
+                                                {
+                           "Application": "EE",
+                           "KeyType": "MemberIDDependentCode",
+                           "KeyValue": "01",
+                           "Source": "EM"
+                        },
+                                                {
+                           "Application": "EE",
+                           "KeyType": "MemberIdBase",
+                           "KeyValue": "109074111",
+                           "Source": "EM"
+                        },
+                                                {
+                           "Application": "",
+                           "KeyType": "PersonId",
+                           "KeyValue": "0191511923030585",
+                           "Source": "EM"
+                        }
+                     ],
+                     "Hipaa": {"CoverageType": "FAM"},
+                     "CoverageKey": "26222|52792|02314|0049527926642|0049251715434370|LV|244912|2017-03-21|LV|2018-03-21|N|||"
+                  }],
+                  "GroupPlatformPointerList":                   [
+                                          {
+                        "Application": "EE",
+                        "KeyType": "GroupId",
+                        "KeyValue": "675717",
+                        "Source": "EM"
+                     },
+                                          {
+                        "Application": "EE",
+                        "KeyType": "DivisionId",
+                        "KeyValue": "67571710",
+                        "Source": "EM"
+                     }
+                  ],
+                  "Network":                   {
+                     "NetworkId": "FLCAREINGMED",
+                     "NetworkDirectoryList": [                     {
+                        "DirectoryId": "341",
+                        "DisplayName": "CAREington Medicare",
+                        "FormNumber": "FL-30014-XX",
+                        "Primary": true
+                     }]
+                  },
+                  "EnrollmentInfo":                   {
+                     "EnrollmentType": "EA",
+                     "DateofHire": "2008-08-19",
+                     "TimelyIndicator": "T",
+                     "PriorCarrier": {"IndicatorList": [                     {
+                        "Value": "True",
+                        "Name": "PriorCoverageIndicator"
+                     }]}
+                  }
+               }]
+            }
+         ],
+         "IndicatorList":          [
+                        {
+               "Name": "Retire",
+               "Value": "False"
+            },
+                        {
+               "Name": "HumanaEmployee",
+               "Value": "False"
+            },
+                        {
+               "Name": "Smoke",
+               "Value": "False"
+            },
+                        {
+               "Name": "Tenant",
+               "Value": "3"
+            },
+                        {
+               "Name": "MedicareEnrolled",
+               "Value": "True"
+            }
+         ],
+         "DualStatusList": [         {
+            "EffectiveDate": "2021-04-14",
+            "EndDate": "2021-04-14",
+            "Value": "False",
+            "Code": "False",
+            "Indicator": "False"
+         }],
+         "DeemingPeriodList": [         {
+            "EffectiveDate": "2021-04-14",
+            "EndDate": "2021-04-14",
+            "Indicator": "False"
+         }]
+      },
+      "MessageList": [      {
+         "Type": "Warning",
+         "Code": "MBEW0003",
+         "Source": "OSE Services",
+         "Description": "No coverage found for one of the platforms."
+      }]
+   }
+}

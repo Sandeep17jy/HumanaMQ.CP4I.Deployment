@@ -1,0 +1,361 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <RetrieveProviderResponse xmlns="EnterpriseProviderSearchService/v2.0">
+         <RetrieveResponse>
+            <Message>
+               <Timestamp>2019-12-11T05:03:26.3940277-05:00</Timestamp>
+               <Duration>4922</Duration>
+               <Version>1.1712.7270.30251</Version>
+               <Environment>TEST</Environment>
+               <IsError>false</IsError>
+               <IsWarning>false</IsWarning>
+            </Message>
+            <ResultInfo>
+               <Total>1</Total>
+               <RemovedByRecordCap>0</RemovedByRecordCap>
+               <Filtered>0</Filtered>
+               <Returned>1</Returned>
+               <Paging xsi:nil="true"/>
+            </ResultInfo>
+            <EnterpriseProviders>
+               <Score>100.0</Score>
+               <ResultIndex>0</ResultIndex>
+               <EnterpriseID>9207573</EnterpriseID>
+               <IsActive>true</IsActive>
+               <IsSuspect>false</IsSuspect>
+               <UniqueID>
+                  <Source>PIM</Source>
+                  <ProviderID>174978</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>A</StatusCode>
+                  </SourceStatus>
+                  <SourceIdentifiers>
+                     <IdentifierType>TaxID</IdentifierType>
+                     <Identifiers>
+                        <ID>621757924</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                     <Identifiers>
+                        <ID>610990080</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                  </SourceIdentifiers>
+               </UniqueID>
+               <ProviderName>
+                  <Last>Moore</Last>
+                  <First>Nathan</First>
+                  <Middle>L</Middle>
+                  <Prefix>Dr</Prefix>
+                  <Suffix/>
+                  <PreferredName>Moore, Nathan L MD</PreferredName>
+                  <Degree>MD</Degree>
+               </ProviderName>
+               <DbaName>Moore, Nathan L MD</DbaName>
+               <Classification>Individual</Classification>
+               <EntityType>Person</EntityType>
+               <Demographics>
+                  <Addresses>
+                     <AddressType>Billing</AddressType>
+                     <Line1>22 Clinic Dr</Line1>
+                     <Line2/>
+                     <City>Paris</City>
+                     <State>KY</State>
+                     <Zip>403612161</Zip>
+                     <Province xsi:nil="true"/>
+                     <Country>US</Country>
+                     <UsCountyFipsCode>21017</UsCountyFipsCode>
+                     <UsCountyName>Bourbon County</UsCountyName>
+                     <Latitude>99.45620000</Latitude>
+                     <Longitude>-32.2728000</Longitude>
+                     <EffectiveDate xsi:nil="true"/>
+                     <TermDate xsi:nil="true"/>
+                  </Addresses>
+                  <Addresses>
+                     <AddressType>Service</AddressType>
+                     <Line1>22 Clinic Dr</Line1>
+                     <Line2/>
+                     <City>Paris</City>
+                     <State>KY</State>
+                     <Zip>403612161</Zip>
+                     <Phones>
+                        <PhoneType>Fax</PhoneType>
+                        <Number>8599870098</Number>
+                        <Extension/>
+                     </Phones>
+                     <Phones>
+                        <PhoneType>Phone</PhoneType>
+                        <Number>8599870074</Number>
+                        <Extension/>
+                     </Phones>
+                     <Province xsi:nil="true"/>
+                     <Country>US</Country>
+                     <UsCountyFipsCode>21017</UsCountyFipsCode>
+                     <UsCountyName>Bourbon County</UsCountyName>
+                     <Latitude>99.45620000</Latitude>
+                     <Longitude>-32.2728000</Longitude>
+                     <EffectiveDate xsi:nil="true"/>
+                     <TermDate xsi:nil="true"/>
+                  </Addresses>
+                  <Addresses>
+                     <AddressType>Service</AddressType>
+                     <Line1>9 Linville Dr</Line1>
+                     <Line2/>
+                     <City>Paris</City>
+                     <State>KY</State>
+                     <Zip>403612129</Zip>
+                     <Phones>
+                        <PhoneType>Fax</PhoneType>
+                        <Number>8599871113</Number>
+                        <Extension/>
+                     </Phones>
+                     <Phones>
+                        <PhoneType>Phone</PhoneType>
+                        <Number>8592199263</Number>
+                        <Extension/>
+                     </Phones>
+                     <Phones>
+                        <PhoneType>Phone</PhoneType>
+                        <Number>8599873600</Number>
+                        <Extension/>
+                     </Phones>
+                     <Province xsi:nil="true"/>
+                     <Country>US</Country>
+                     <UsCountyFipsCode>21017</UsCountyFipsCode>
+                     <UsCountyName>Bourbon County</UsCountyName>
+                     <Latitude>99.45620000</Latitude>
+                     <Longitude>-32.2728000</Longitude>
+                     <EffectiveDate xsi:nil="true"/>
+                     <TermDate xsi:nil="true"/>
+                  </Addresses>
+                  <DateOfBirth>1952-10-02</DateOfBirth>
+                  <Gender>Male</Gender>
+                  <ServiceAreas>
+                     <FipsCode>21017</FipsCode>
+                     <State>KY</State>
+                     <StateName>Kentucky</StateName>
+                     <LocalName>Bourbon County</LocalName>
+                  </ServiceAreas>
+               </Demographics>
+               <Identifiers>
+                  <IdentifierType>DeaID</IdentifierType>
+                  <Identifiers>
+                     <ID>AM8785997</ID>
+                     <Issuer xsi:nil="true"/>
+                  </Identifiers>
+               </Identifiers>
+               <Identifiers>
+                  <IdentifierType>NpiID</IdentifierType>
+                  <Identifiers>
+                     <ID>1093829822</ID>
+                     <Issuer xsi:nil="true"/>
+                  </Identifiers>
+               </Identifiers>
+               <Specialties>
+                  <SourceSpecialtyCode>FP</SourceSpecialtyCode>
+                  <SourceSystem>PIM</SourceSystem>
+                  <Description>Family Practice  [AMA,ARC,MTV,PR,PIMS,CPL]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>EM</SourceSpecialtyCode>
+                  <SourceSystem>PIM</SourceSystem>
+                  <Description>Emergency Medicine   [MTV,AMA,ARC,PIMS] / EMERGENCY MEDICINE  [CAS] / Emergency Room Physician   [PR]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>FP</SourceSpecialtyCode>
+                  <SourceSystem>MTV</SourceSystem>
+                  <Description>Family Practice  [AMA,ARC,MTV,PR,PIMS,CPL]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>06</SourceSpecialtyCode>
+                  <SourceSystem>CAS</SourceSystem>
+                  <Description>Gen &amp; Fam Pract  [CAS]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>06</SourceSpecialtyCode>
+                  <SourceSystem>CAS</SourceSystem>
+                  <Description>Gen &amp; Fam Pract  [CAS]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>16</SourceSpecialtyCode>
+                  <SourceSystem>CAS</SourceSystem>
+                  <Description>Pediatrics  [CAS]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>06</SourceSpecialtyCode>
+                  <SourceSystem>CAS</SourceSystem>
+                  <Description>Gen &amp; Fam Pract  [CAS]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>FM</SourceSpecialtyCode>
+                  <SourceSystem>AMA</SourceSystem>
+                  <Description>Family medicine [AMA]</Description>
+               </Specialties>
+               <Specialties>
+                  <SourceSpecialtyCode>US</SourceSpecialtyCode>
+                  <SourceSystem>AMA</SourceSystem>
+                  <Description>Unspecified   [ARC,AMA]</Description>
+               </Specialties>
+               <SourceProviders>
+                  <Source>AMA</Source>
+                  <ProviderID>02002780791</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>A</StatusCode>
+                  </SourceStatus>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>CAS</Source>
+                  <ProviderID>000253085DD</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>1SF</StatusCode>
+                  </SourceStatus>
+                  <SourceIdentifiers>
+                     <IdentifierType>TaxID</IdentifierType>
+                     <Identifiers>
+                        <ID>621824637</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                  </SourceIdentifiers>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>CAS</Source>
+                  <ProviderID>000253085JD</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>1SF</StatusCode>
+                  </SourceStatus>
+                  <SourceIdentifiers>
+                     <IdentifierType>TaxID</IdentifierType>
+                     <Identifiers>
+                        <ID>621824637</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                  </SourceIdentifiers>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>CAS</Source>
+                  <ProviderID>610990080A</ProviderID>
+                  <SourceStatus>
+                     <IsActive>false</IsActive>
+                     <StatusCode xsi:nil="true"/>
+                  </SourceStatus>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>CAS</Source>
+                  <ProviderID>610990080AD</ProviderID>
+                  <SourceStatus>
+                     <IsActive>false</IsActive>
+                     <StatusCode>0</StatusCode>
+                     <StatusAttributes>
+                        <Name>NOPAYCD</Name>
+                        <Value>6</Value>
+                     </StatusAttributes>
+                     <StatusAttributes>
+                        <Name>NOPAYDT</Name>
+                        <Value>20150101</Value>
+                     </StatusAttributes>
+                  </SourceStatus>
+                  <SourceIdentifiers>
+                     <IdentifierType>TaxID</IdentifierType>
+                     <Identifiers>
+                        <ID>610990080</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                  </SourceIdentifiers>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>CAS</Source>
+                  <ProviderID>621757924AD</ProviderID>
+                  <SourceStatus>
+                     <IsActive>false</IsActive>
+                     <StatusCode>0</StatusCode>
+                     <StatusAttributes>
+                        <Name>NOPAYCD</Name>
+                        <Value>6</Value>
+                     </StatusAttributes>
+                     <StatusAttributes>
+                        <Name>NOPAYDT</Name>
+                        <Value>20070601</Value>
+                     </StatusAttributes>
+                  </SourceStatus>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>CAS</Source>
+                  <ProviderID>621824637MD</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>0</StatusCode>
+                  </SourceStatus>
+                  <SourceIdentifiers>
+                     <IdentifierType>TaxID</IdentifierType>
+                     <Identifiers>
+                        <ID>621824637</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                  </SourceIdentifiers>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>MTV</Source>
+                  <ProviderID>10654342360</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>A</StatusCode>
+                  </SourceStatus>
+                  <SourceIdentifiers>
+                     <IdentifierType>TaxID</IdentifierType>
+                     <Identifiers>
+                        <ID>621824637</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                  </SourceIdentifiers>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>MTV</Source>
+                  <ProviderID>10654344818</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>A</StatusCode>
+                  </SourceStatus>
+               </SourceProviders>
+               <SourceProviders>
+                  <Source>PIM</Source>
+                  <ProviderID>174978</ProviderID>
+                  <SourceStatus>
+                     <IsActive>true</IsActive>
+                     <StatusCode>A</StatusCode>
+                  </SourceStatus>
+                  <SourceIdentifiers>
+                     <IdentifierType>TaxID</IdentifierType>
+                     <Identifiers>
+                        <ID>610990080</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                     <Identifiers>
+                        <ID>621757924</ID>
+                        <Issuer xsi:nil="true"/>
+                     </Identifiers>
+                  </SourceIdentifiers>
+               </SourceProviders>
+               <MajorClassCodes>P</MajorClassCodes>
+               <ProviderTypeCodes>P</ProviderTypeCodes>
+               <Taxonomy>
+                  <Code>207Q00000X</Code>
+                  <TaxonomyType>Derived</TaxonomyType>
+               </Taxonomy>
+               <Taxonomy>
+                  <Code>207P00000X</Code>
+                  <TaxonomyType>Derived</TaxonomyType>
+               </Taxonomy>
+               <Taxonomy>
+                  <Code>208000000X</Code>
+                  <TaxonomyType>Derived</TaxonomyType>
+               </Taxonomy>
+               <ParInfo xsi:nil="true"/>
+               <PcpInfo xsi:nil="true"/>
+            </EnterpriseProviders>
+         </RetrieveResponse>
+      </RetrieveProviderResponse>
+   </s:Body>
+</s:Envelope>
