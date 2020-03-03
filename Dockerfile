@@ -14,6 +14,7 @@ COPY mqadvancedev.mqsc /etc/mqm/
 ADD SampleTriggerRuleRequest.json /tmp/
 ADD SampleTriggerRuleResponse.json /tmp/
 ADD SampleXMLGenerationRuleRequest.json /tmp/
+ADD SampleXMLGenerationRuleResponse.json /tmp/
 ADD Sample_Trigger.json /tmp/
 ADD Sample_Trigger_ME2833.json /tmp/
 ADD EPS_InputSample.xml /tmp/
